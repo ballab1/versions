@@ -1,6 +1,7 @@
 # package versions
 export JAVA_VERSION=1.8.0_181
-export PERL_VERSION=5.26.2
+export KAFKA_VERSION=2.0.0
+export ZOOKEEPER_VERSION=3.4.13
 
 declare -a modules=(base_container
                     openjdk
