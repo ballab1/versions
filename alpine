@@ -28,6 +28,7 @@ export ZEN_VERSION=1.5
 #jira-fd-kafka
 #jenkins-build-events
 #nginx_alt
+#                    mysql
  
 declare -a modules=(base_container
                     supervisord
@@ -37,12 +38,9 @@ declare -a modules=(base_container
                     openjdk
                     hubot
                     jenkins
-                    jenkins-build-events
-                    jira-fd-kafka
                     kafka-broker
                     kafka-manager
                     kafka-zookeeper
-#                    mysql
                     nagios
                     nginx-proxy
                     phpmyadmin
