@@ -1,5 +1,5 @@
 # alpine package versions
-export CESI_VERSION=2.2
+export CESI_VERSION=2.4
 export CG_VERSION=7d3d27baf8107b630586c962c057e22149653deb
 export CPANIMUS_VERSION=1.7044
 export CS_VERSION=7d3d27baf8107b630586c962c057e22149653deb
@@ -47,6 +47,7 @@ declare -a modules=(base_container
                     nagios
                     nginx-proxy
                     phpmyadmin
+                    cesi
                     webdav
                     perl
                     perl-carton
