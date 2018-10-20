@@ -1,8 +1,11 @@
 # ubuntu package versions
+export JAVA_EXTENDED=openjdk-1.8.0.181-3.b13.el7_5.x86_64
+export JAVA_PACKAGE=1.8.0
 export JAVA_VERSION=1.8.0_181
 export PERL_VERSION=5.26.2
+export CPANIMUS_VERSION=1.7044
 
 declare -a modules=(base_container
                     openjdk
                     perl
-                    perl-carton )
+                    perl-carton ) 
