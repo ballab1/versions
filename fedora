@@ -1,6 +1,9 @@
-# fedora package versions
-export JAVA_VERSION=1.8.0_181
-export PERL_VERSION=5.26.2
+# centos package versions
+export JAVA_EXTENDED=openjdk-1.8.0.181-3.b13.el7_5.x86_64
+export JAVA_PACKAGE=1.8.0
+export JAVA_VERSION=1.8.0_181-3.b13
+export PERL_VERSION=5.24.3
+export CPANIMUS_VERSION=1.7042-2
 
 declare -a modules=(base_container
                     openjdk

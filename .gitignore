@@ -3,14 +3,8 @@
 *.iml
 *.tgz
 *.zip
-build/container_build_framework*
 **/*.bak
 *.log
-*.err
-*.json
-bld.*
-log/*
-logs/*
 
 # OSX
 .DS_Store
@@ -21,10 +15,13 @@ logs/*
 *~
 .directory
 .Trash-*
+samples
+log
+logs
 vols/*
-
-# gradle support
-.gradle/
-gradle/wrapper
-gradlew
-gradlew.bat
+vols-rw/*
+build/container_build_framework*
+**/CRF.properties
+**/CBF.properties
+scanned.paths
+*.loaded
