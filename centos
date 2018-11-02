@@ -1,9 +1,11 @@
 # centos package versions
+export CENTOS_VERSION=7.5.1804
+export CPANMINUS_VERSION=1.7042-2
 export JAVA_EXTENDED=openjdk-1.8.0.191.b12-0.el7_5.x86_64
 export JAVA_PACKAGE=1.8.0
 export JAVA_VERSION=1.8.0.191.b12
+export OS_VERSION=$CENTOS_VERSION
 export PERL_VERSION=5.24.3
-export CPANMINUS_VERSION=1.7042-2
 
 declare -a modules=(base_container
                     openjdk

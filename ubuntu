@@ -1,9 +1,11 @@
 # ubuntu package versions
+export UBUNTU_VERSION=cosmic-20180905
+export CPANMINUS_VERSION=1.7044
 export JAVA_EXTENDED=openjdk-1.8.0.181-3.b13.el7_5.x86_64
 export JAVA_PACKAGE=1.8.0
 export JAVA_VERSION=1.8.0_181
+export OS_VERSION=$UBUNTU_VERSION
 export PERL_VERSION=5.26.2
-export CPANMINUS_VERSION=1.7044
 
 declare -a modules=(base_container
                     openjdk
