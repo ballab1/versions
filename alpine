@@ -27,10 +27,10 @@ export PERL_VERSION=5.26.2
 export PHP5_VERSION=5.6.37-r0
 export PHP7_VERSION=7.2.8-r1
 export PHPMYADMIN_VERSION=4.8.3
-export POSTGRES_VERSION=10.5
+export POSTGRES_VERSION=10.6
 export QUANTILE_VERSION=1.1.2
 export SMONITOR_VERSION=v1.1.0
-export TIMESCALEDB_VERSION=0.12.1
+export TIMESCALEDB_VERSION=1.0.0
 export ZEN_VERSION=1.5
 export ZOOKEEPER_VERSION=3.4.13
 
@@ -56,7 +56,9 @@ declare -a modules=(base_container
                     webdav
                     perl
                     perl-carton
+                    alpinefull
                     files-kafka
                     files-librd
                     openjre
-                    gradle )
+                    gradle
+                    alpinefull )
