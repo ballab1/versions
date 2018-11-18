@@ -1,0 +1,6 @@
+# centos package modules
+
+declare -a modules=(base_container
+                    openjdk
+                    perl
+                    perl-carton )

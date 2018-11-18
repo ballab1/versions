@@ -1,13 +1,8 @@
 # centos package versions
-export FEDORA_VERSION=28
-export CPANMINUS_VERSION=1.7044
-export JAVA_EXTENDED=openjdk-1.8.0.181.b15-6.fc28.x86_64
-export JAVA_PACKAGE=1.8.0
-export JAVA_VERSION=1.8.0.181.b15
-export OS_VERSION=$FEDORA_VERSION
-export PERL_VERSION=5.26.2
-
-declare -a modules=(base_container
-                    openjdk
-                    perl
-                    perl-carton )
+FEDORA_VERSION=28
+CPANMINUS_VERSION=1.7044
+JAVA_EXTENDED=openjdk-1.8.0.181.b15-6.fc28.x86_64
+JAVA_PACKAGE=1.8.0
+JAVA_VERSION=1.8.0.181.b15
+OS_VERSION=$FEDORA_VERSION
+PERL_VERSION=5.26.2

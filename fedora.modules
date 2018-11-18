@@ -1,0 +1,6 @@
+# centos package mpodules
+
+declare -a modules=(base_container
+                    openjdk
+                    perl
+                    perl-carton )
