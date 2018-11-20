@@ -1,27 +1,27 @@
-# alpine package modules
+# alpine build modules (in dependency order) 
 
-declare -a modules=(base_container
-                    supervisord
-                    nginx-base
-                    php5
-                    php7
-                    openjdk
-                    hubot
-                    jenkins
-                    kafka-broker
-                    kafka-manager
-                    kafka-zookeeper
-                    nagios
-                    nginx-proxy
-                    phpmyadmin
-                    postgresql
-                    webdav
-                    cesi
-                    perl
-                    perl-carton
-                    alpinefull
-                    files-kafka
-                    files-librd
-                    openjre
-                    gradle
-                    alpinefull )
+base_container
+supervisord
+nginx-base
+php5
+php7
+openjdk
+hubot
+jenkins
+kafka-broker
+kafka-manager
+kafka-zookeeper
+nagios
+nginx-proxy
+phpmyadmin
+postgresql
+webdav
+cesi
+perl
+perl-carton
+alpinefull
+files-kafka
+files-librd
+openjre
+gradle
+alpinefull

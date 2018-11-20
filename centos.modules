@@ -1,6 +1,6 @@
-# centos package modules
+# centos build modules (in dependency order) 
 
-declare -a modules=(base_container
-                    openjdk
-                    perl
-                    perl-carton )
+base_container
+openjdk
+perl
+perl-carton

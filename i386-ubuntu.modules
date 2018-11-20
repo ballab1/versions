@@ -1,6 +1,6 @@
-# 32-buit ubuntu modules
+# 32-bit ubuntu build modules (in dependency order) 
 
-declare -a modules=(base_container
-                    openjdk
-                    kafka-broker
-                    kafka-zookeeper )
+base_container
+openjdk
+kafka-broker
+kafka-zookeeper
