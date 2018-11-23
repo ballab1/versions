@@ -1,8 +1,8 @@
 # fedora package versions
-export JAVA_VERSION=1.8.0_181
-export PERL_VERSION=5.26.2
-
-declare -a modules=(base_container
-                    openjdk
-                    perl
-                    perl-carton )
+FEDORA_VERSION=28
+CPANMINUS_VERSION=1.7044
+JAVA_EXTENDED=openjdk-1.8.0.191.b12-8.fc28.x86_64
+JAVA_PACKAGE=1.8.0
+JAVA_VERSION=1.8.0.191.b12
+OS_VERSION=$FEDORA_VERSION
+PERL_VERSION=5.26.2

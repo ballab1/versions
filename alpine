@@ -1,55 +1,37 @@
 # alpine package versions
-export CESI_VERSION=2_api
-export CPANIMUS_VERSION=1.7044
-export GRADLE_VERSION=4.9
-export GRAFANA_VERSION=5.2.4
-export JAVA_VERSION=8.171.11-r0
-export JENKINS_VERSION=2.138.1
-export KAFKA_VERSION=2.0.0
-export KM_VERSION=1.3.3.18
-export MYSQL_VERSION=5.7.23
-#export MYSQL_VERSION=8.0.11
-export NCONF_VERSION=1.3.0-0
-export NCORE_VERSION=4.4.2
-export NGINX_VERSION=1.15.3
-export NGRAPH_VERSION=1.5.2
-export NOBJECT_VERSION=0.21.20
-export PERL_VERSION=5.26.2
-export PHP5_VERSION=5.6.37-r0
-export PHP7_VERSION=7.2.8-r1
-export PHPMYADMIN_VERSION=4.8.3
-export POSTGRES_VERSION=10.5
-export QUANTILE_VERSION=1.1.2
-export TIMESCALEDB_VERSION=0.11.0
-export ZEN_VERSION=1.5
-export ZOOKEEPER_VERSION=3.4.13
-
-
-#jira-fd-kafka
-#jenkins-build-events
-#nginx_alt
-#                    mysql
- 
-declare -a modules=(base_container
-                    supervisord
-                    nginx-base
-                    php5
-                    php7
-                    openjdk
-                    hubot
-                    jenkins
-                    kafka-broker
-                    kafka-manager
-                    kafka-zookeeper
-                    nagios
-                    cesi
-                    nginx-proxy
-                    phpmyadmin
-                    webdav
-                    perl
-                    perl-carton
-                    files-kafka
-                    files-librd
-                    postgresql
-                    openjre
-                    gradle )
+ALPINE_VERSION=3.8
+CESI_VERSION=2.6.2
+CG_VERSION=7d3d27baf8107b630586c962c057e22149653deb
+CPANMINUS_VERSION=1.7044
+CS_VERSION=7d3d27baf8107b630586c962c057e22149653deb
+GRADLE_VERSION=4.10.2
+GRAFANA_VERSION=5.3.4
+GROOVY_VERSION=2.6-jre-alpine
+JAVA_EXTENDED=8.181.13-r0
+JAVA_PACKAGE=1.8.0-openjdk
+JAVA_VERSION=8.181.13-r0
+JIRA_VERSION=7.9.2
+JENKINS_VERSION=2.138.3
+KAFKA_VERSION=2.0.1
+KM_VERSION=1.3.3.18
+MYSQL_VERSION=5.7.23
+#MYSQL_VERSION=8.0.11
+NCONF_VERSION=1.3.0-0
+NCORE_VERSION=4.4.2
+NGINX_VERSION=1.15.6
+NGRAPH_VERSION=1.5.2
+NOBJECT_VERSION=0.21.20
+NODERVISOR_VERSION=e97902f019cc929aa5f68a57bd92748887ac95d2
+OS_VERSION=$ALPINE_VERSION
+PERL_VERSION=5.26.2
+PGADMIN4_VERSION=3.5
+PHP5_VERSION=5.6.37-r0
+PHP7_VERSION=7.2.8-r1
+PHPMYADMIN_VERSION=4.8.3
+#POSTGRES_VERSION=10.5
+POSTGRES_VERSION=11.1
+QUANTILE_VERSION=1.1.2
+SMONITOR_VERSION=v1.1.0
+TIMESCALEDB_VERSION=1.0.0
+ZEN_VERSION=1.5
+ZOOKEEPER_VERSION=3.4.13

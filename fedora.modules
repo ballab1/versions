@@ -1,0 +1,6 @@
+# fedora build modules (in dependency order) 
+
+base_container
+openjdk
+perl
+perl-carton

@@ -1,0 +1,6 @@
+# 32-bit ubuntu build modules (in dependency order) 
+
+base_container
+openjdk
+kafka-broker
+kafka-zookeeper
