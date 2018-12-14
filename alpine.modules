@@ -19,9 +19,8 @@ webdav
 cesi
 perl
 perl-carton
-alpinefull
 files-kafka
 files-librd
 openjre
 gradle
-alpinefull
+build_container
