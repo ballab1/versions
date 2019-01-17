@@ -1,12 +1,12 @@
 # alpine build modules (in dependency order) 
 
 base_container
+openjdk
 build_container
 supervisord
 nginx-base
 php5
 php7
-openjdk
 hubot
 jenkins
 kafka
