@@ -22,5 +22,6 @@ perl
 perl-carton
 files-kafka
 files-librd
+movefiles
 openjre
 gradle
