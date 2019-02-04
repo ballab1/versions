@@ -11,6 +11,7 @@ hubot
 jenkins
 kafka
 kafka-manager
+kafka-rest
 kafka-zookeeper
 nagios
 nginx-proxy
