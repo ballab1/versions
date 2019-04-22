@@ -21,9 +21,12 @@ webdav
 cesi
 perl
 perl-carton
+python
+openjre
 files-kafka
 files-librd
 movefiles
-openjre
-gradle
 zenphoto
+gradle
+nginx_alt
+supervisord-monitor

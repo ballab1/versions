@@ -4,3 +4,4 @@ base_container
 openjdk
 kafka
 kafka-zookeeper
+python
