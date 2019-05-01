@@ -3,5 +3,6 @@
 base_container
 openjdk
 kafka
+confluent
 kafka-zookeeper
 python

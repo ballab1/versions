@@ -2,6 +2,7 @@
 
 base_container
 openjdk
+build_container
 perl
 perl-carton
 python

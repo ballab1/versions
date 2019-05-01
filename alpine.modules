@@ -9,6 +9,7 @@ php5
 php7
 hubot
 jenkins
+confluent
 kafka
 kafka-manager
 kafka-rest
