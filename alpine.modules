@@ -18,6 +18,7 @@ nginx-proxy
 phpmyadmin
 postgresql
 webdav
+smee
 cesi
 perl
 perl-carton
