@@ -3,7 +3,6 @@
 base_container
 openjdk
 build_container
-kafka
 confluent
 kafka-zookeeper
 python

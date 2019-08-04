@@ -10,9 +10,7 @@ php7
 hubot
 jenkins
 confluent
-kafka
 kafka-manager
-kafka-rest
 nagios
 nginx-proxy
 phpmyadmin
