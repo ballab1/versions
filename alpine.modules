@@ -10,7 +10,6 @@ php7
 hubot
 jenkins
 confluent
-kafka-manager
 nagios
 nginx-proxy
 phpmyadmin
@@ -23,4 +22,3 @@ perl-carton
 python
 openjre
 movefiles
-zenphoto
