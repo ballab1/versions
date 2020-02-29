@@ -2,6 +2,6 @@
 
 base_container
 openjdk
+python
 build_container
 confluent
-python
